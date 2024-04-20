@@ -3,12 +3,14 @@
     position: relative;
     align-items: center;
 }
+
 #nav ul{
     list-style-type: none;
     display: flex;
     align-items: center;
     height: 52px;
 }
+
 #nav ul li{
     margin: 20px;
 }
@@ -18,7 +20,9 @@
     color: black;
     padding: 0px 10px;
     border-radius: 20px;
+    
 }
+
 #nav ul li a:hover{
     background-color: rgb(229, 235, 233);
 }
@@ -27,6 +31,7 @@
     font-size: 1rem;
     margin: 0px 25px;
 }
+
 #nav button{
     padding: 0px 12px;
     margin: 0px 10px;
@@ -35,10 +40,14 @@
     font-size: 0.5rem;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
+    transition: 0.6s;
 }
+
 #nav button:hover{
     background-color: rgb(165, 165, 228);
+    transform: scale(1.2);
 }
+
 #nav::before{
     content: "";
     position: absolute;

@@ -1,6 +1,7 @@
 #search{
     height: 350px;
-    width: auto;
+    width: 90%;
+    margin: auto;
     display:flex;
     flex-direction: column;
     justify-content: center;
