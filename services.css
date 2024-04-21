@@ -1,0 +1,37 @@
+#service{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin:auto;
+}
+#service img{
+    height: 150px;
+    margin:auto;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 5px 5px 50px rgb(81, 128, 108) ;
+
+}
+#two2{
+    margin-top: 20px;
+    font-size: 0.65rem;
+    text-align: center;
+}
+.service_size{
+    width: 25%;
+    height: 310pxpx;
+    border: solid black 5px;
+    margin: 0px 20px;
+    padding: 10px 20px;
+    background-color: rgb(201, 234, 209);
+    border-radius: 24px;
+}
+#one1{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.4rem;
+}
+#heading{
+    margin: 20px 80px;
+    font-size: 1.3rem;
+}

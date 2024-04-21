@@ -1,0 +1,38 @@
+#food{
+    width: 90%;
+    margin:auto;
+}
+#food_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image_size_food{
+    height: 150px;
+    width: 150px;
+    margin: 25px;
+    padding: 10px;
+    border: solid black 3px;
+    border-radius: 50%;
+    transition: 0.75s;
+    display: block;
+}
+.image_size_food:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+#food_names{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 10px;
+}
+.para{
+    margin: 0px 55px;
+    padding: 0px 20px;
+}
+#rolls{
+    position: relative;
+    left: -10px;
+}
