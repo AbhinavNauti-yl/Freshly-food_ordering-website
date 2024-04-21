@@ -1,0 +1,48 @@
+#footer{
+    background-color: rgb(0, 0, 0);
+    height: 470px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_size{
+    h2{
+        font-size: 1rem;
+        margin: 8px;
+    }
+    p{
+        font-size: 0.5rem;
+        margin: 5px;
+        padding: 3px;
+    }
+    h1{
+        font-size: 1rem;
+        margin: 8px;
+    }
+}
+#contact_logo{
+    display: flex;
+    align-items:center;
+    justify-content: left;
+    position: relative;
+    left: -15px;
+}
+#contact_logo img{
+    height: 30px;
+    width: 30px;
+}
+#contact_logo a{
+    margin: 5px 15px;
+}
+.all_size{
+    height: 300px;
+    margin: 20px;
+    padding: 30px;
+}
+#legeal a{
+    font-size: 0.5rem;
+    text-decoration: none;
+    color: white;
+    justify-content: left;
+}

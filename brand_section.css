@@ -9,7 +9,7 @@
 }
 #brand::before{
     content: "";
-    background-image: url("pexels-ella-olsson-1640777.jpg");
+    background-image: url("istockphoto-1097744990-612x612.jpg");
     height: 100%;
     width: 100%;
     position: absolute;
@@ -19,6 +19,7 @@
 }
 #brand h1{
     font-size: 1.4rem;
+    color: white;
 }
 #brand_logo{
     display: flex;
@@ -30,9 +31,9 @@
     margin: 25px;
     padding: 10px;
     border: solid black 3px;
-    background-color: rgb(169, 196, 220);
+    background-color: rgb(119 127 133);
     border-radius: 12px;
-    box-shadow: -10px -10px 60px rgb(38, 36, 36) inset;
+    box-shadow: 5px 5px 50px rgb(25, 25, 25);
     transition: 0.75s;
 }
 .image_size:hover{
