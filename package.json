@@ -1,0 +1,15 @@
+{
+  "name": "second-project",
+  "version": "1.0.0",
+  "description": "integrating node in second projrect",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abhinav",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "pug": "^3.0.2"
+  }
+}

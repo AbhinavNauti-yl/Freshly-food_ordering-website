@@ -1,3 +1,6 @@
-This is the same project as freshly
-I am trying to integrate this project with nodejs
-also trying to include java script in this project
+This is the same project as FreshLy <br>
+This project or branch is integrated with nodeJs <br>
+<br><br>
+This also uses Express module
+<br>
+In this branch I have used tamplet engine as Pug
