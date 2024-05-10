@@ -20,6 +20,14 @@ app.get("/about_us",(req,res)=>{
     res.render("about_us")
 })
 
+app.get("/signup",(req,res)=>{
+    res.render("signup")
+})
+
+app.get("/login",(req,res)=>{
+    res.render("login")
+})
+
 app.listen(80,()=>{
     console.log("running")
 })
