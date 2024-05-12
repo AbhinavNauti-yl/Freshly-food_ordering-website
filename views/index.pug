@@ -1,0 +1,160 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  title Document
+  style.
+    * {
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+    }
+  style 
+    include ../static/css/body.css
+    include ../static/css/brand_section.css
+    include ../static/css/food_logo.css
+    include ../static/css/footer.css
+    include ../static/css/search_bar.css
+    include ../static/css/services.css
+    include ../static/css/nav_bar.css
+    include ../static/css/website_relode_animation.css
+
+// bellow div is for nav bar
+div
+  nav#nav
+    h1 FreshLy
+    ul
+      li
+        a(href='index') HOME
+      li
+        a(href='#service1') SERVICE
+      li
+        a(href='#') BRANDS
+      li
+        a(href='about_us', target='_top') ABOUT US
+    button(onclick="location.href='signup'") Sign up
+    button(onclick="location.href='login'") Log in
+br
+br
+hr
+br
+
+
+// bellow div is for search div
+div
+  section#search
+    h1 Delight in Every Bite, Delivered Right
+    br
+    div
+      input(type='text', placeholder='search')
+      img(src='../images/search_icon.webp', alt='')
+br
+hr
+br
+
+
+// this div is for the popular cusine section
+div
+  section#food
+    h1 Popular Cuisines
+    #food_logo
+      a(href='#')
+        img.image_size_food(src='../images/food logo/rolls.jpg', alt='')
+      a(href='#')
+        img.image_size_food(src='../images/food logo/dosa.jpg', alt='')
+      a(href='#')
+        img.image_size_food(src='../images/food logo/biryani.jpg', alt='')
+      a(href='#')
+        img.image_size_food(src='../images/food logo/pizza.jpg', alt='')
+      a(href='#')
+        img.image_size_food(src='../images/food logo/burger.jpg', alt='')
+    #food_names
+      p#rolls.para Rolls
+      p.para Dosa
+      p.para Biryani
+      p.para Pizza
+      p.para Burger
+br
+hr
+br
+
+
+// bello div is for famous brand section
+div
+  section#brand
+    h1 Famous Bites, One Click Away
+    #brand_logo
+      a(href='#')
+        img.image_size(src='../images/brand logo/starbucks.webp', alt='')
+      a(href='#')
+        img.image_size(src='../images/brand logo/burger_king.webp', alt='')
+      a(href='#')
+        img.image_size(src='../images/brand logo/dominos.webp', alt='')
+      a(href='#')
+        img.image_size(src='../images/brand logo/kfc.webp', alt='')
+      a(href='#')
+        img.image_size(src='../images/brand logo/pizza_hut.webp', alt='')
+br#service1
+hr
+
+
+// this bellow section or par is for services
+h1#heading Our Services
+section#service
+  .service_size
+    p#one1 Dilivery
+    img(src='../images/service/delivery.webp', alt='')
+    p#two2
+      | Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eum voluptatum iure mollitia nihil, asperiores, ipsum ab cupiditate non quasi, repellat deleniti quas quidem ipsa ratione a voluptates libero delectus.
+  .service_size
+    p#one1 Catering
+    img(src='../images/service/catering.webp', alt='')
+    p#two2
+      | Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eum voluptatum iure mollitia nihil, asperiores, ipsum ab cupiditate non quasi, repellat deleniti quas quidem ipsa ratione a voluptates libero delectus.
+  .service_size
+    p#one1 Bulk ordering
+    img(src='../images/service/bulk_order.webp', alt='')
+    p#two2
+      | Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eum voluptatum iure mollitia nihil, asperiores, ipsum ab cupiditate non quasi, repellat deleniti quas quidem ipsa ratione a voluptates libero delectus.
+br
+hr
+br
+
+
+// this div is for footer section
+div
+  footer#footer
+    #FreshLy.text_size.all_size
+      h1 FreshLy
+      p @Pvt.ltd
+    #contact.text_size.all_size
+      h2 Contact
+      p Phone::7505981293
+      p Email::abhinavnautiyal2004@gmail.com
+      p On Social Media
+      #contact_logo
+        a(href='#')
+          img(src='../images/social media logo/facebook.webp', alt='')
+        a(href='#')
+          img(src='../images/social media logo/instagram.webp', alt='')
+        a(href='#')
+          img(src='../images/social media logo/whatsapp.webp', alt='')
+        a(href='#')
+          img(src='../images/social media logo/linkedin.webp', alt='')
+    #location.text_size.all_size
+      h2 Location
+      p GEHU Clementown
+      p Dehradun
+      br
+      p Vikasnagar
+      p Dehradun
+    #legeal.text_size.all_size
+      h2 legeal
+      p
+        a(href='#') Term &amp; Condition
+    #deliver.text_size.all_size
+      h2 We Deliver to:
+      p Banlgore
+      p Gurgaon
+      p Delhi
+      p Mumbai

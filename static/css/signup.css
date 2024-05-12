@@ -1,0 +1,100 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/login.jpg");
+    z-index: -2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+h1 {
+    font-size: 18rem;
+    display: inline;
+    color: #e7cfcf;
+    position: relative;
+    top: 23rem;
+}
+
+#log {
+    height: 645px;
+    width: 520px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    position: relative;
+    right: 130px;
+    top: 45px;
+    border-radius: 10px;
+}
+
+#log::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(223, 211, 196);
+    z-index: -1;
+    border-radius: 20px;   
+    opacity: 0.45;
+}
+
+#form {
+    height: 80%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+#form input {
+    width: 75%;
+    margin: 20px 10px;
+    padding: 5px 15px;
+    border-radius: 5px;
+
+}
+
+#but {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: -58px;
+}
+#one {
+    position: relative;
+    left: -62px;
+    top: 12px;
+    a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+}
+
+#form button {
+    background-color: rgb(65, 67, 44);
+    border: solid black 2px;
+    border-radius: 5px;
+    width: 80px;
+    font-size: 1.5rem;
+    margin: 10px 20px;
+    color:white
+}
+#form button:hover{
+    background-color: rgb(74, 77, 52);
+}
+#user_icon {
+    font-size: 60px;
+}

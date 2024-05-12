@@ -1,0 +1,41 @@
+#brand{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    width: 90%;
+    margin:auto;
+    position: relative;
+}
+#brand::before{
+    content: "";
+    background-image: url("../../images/base.jpg");
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    border-radius: 30px;
+    opacity: 0.8;
+}
+#brand h1{
+    font-size: 1.4rem;
+    color: white;
+}
+#brand_logo{
+    display: flex;
+    align-items: center;
+}
+.image_size{
+    height: 180px;
+    width: 180px;
+    margin: 25px;
+    padding: 10px;
+    border: solid black 3px;
+    background-color: rgb(119 127 133);
+    border-radius: 12px;
+    box-shadow: 5px 5px 50px rgb(25, 25, 25);
+    transition: 0.75s;
+}
+.image_size:hover{
+    transform: scale(1.3);
+}

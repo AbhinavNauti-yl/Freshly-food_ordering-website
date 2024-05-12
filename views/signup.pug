@@ -1,0 +1,24 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+  title Document
+  style 
+    include ../static/css/signup.css
+    include ../static/css/website_relode_animation.css
+h1 FreshLy
+#log
+  form#form
+    i#user_icon.glyphicon.glyphicon-user
+    h2 Sign Up
+    input#name(type='text' name='name' placeholder='Name')
+    input#phone_number(type='number' name='phone_number' placeholder='Phone Number')
+    input#email(type='email' name='email' placeholder='Email')
+    input#password(type='password' name='password' placeholder='Password')
+    #but
+      button(type='reset') Reset
+      button(type='submit') Sign up
+    p#one
+      | Allready Regestered! 
+      a(href='login') Log In
