@@ -9,7 +9,7 @@ head
     include ../static/css/website_relode_animation.css
 h1 FreshLy
 #log
-  form#form
+  form#form(action="/signup" method="POST")
     i#user_icon.glyphicon.glyphicon-user
     h2 Sign Up
     input#name(type='text' name='name' placeholder='Name')
@@ -18,7 +18,7 @@ h1 FreshLy
     input#password(type='password' name='password' placeholder='Password')
     #but
       button(type='reset') Reset
-      button(type='submit') Sign up
+      button(type='submit' method="post") Sign up
     p#one
       | Allready Regestered! 
       a(href='login') Log In
